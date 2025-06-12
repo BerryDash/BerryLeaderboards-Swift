@@ -54,12 +54,7 @@ struct ContentView: View {
                     #endif
                 }
                 .background(Color.clear)
-                #if os(macOS)
                 .scrollContentBackground(.hidden)
-                #elseif os(iOS)
-                .scrollContentBackground(.hidden)
-                .listStyle(.plain)
-                #endif
                 .task {
                     await loadPlayers()
                 }
