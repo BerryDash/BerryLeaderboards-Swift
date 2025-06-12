@@ -7,52 +7,52 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		1F7A1CDF2DF7A0CD00464EB4 /* PBXContainerItemProxy */ = {
+		1F0A4FFA2DFB7EE0001678C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1F7A1CC82DF7A0C500464EB4 /* Project object */;
+			containerPortal = 1F0A4FE32DFB7EDB001678C8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1F7A1CCF2DF7A0C500464EB4;
-			remoteInfo = BerryLeaderboards;
+			remoteGlobalIDString = 1F0A4FEA2DFB7EDB001678C8;
+			remoteInfo = "Berry Leaderboards";
 		};
-		1F7A1CE92DF7A0CD00464EB4 /* PBXContainerItemProxy */ = {
+		1F0A50042DFB7EE0001678C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1F7A1CC82DF7A0C500464EB4 /* Project object */;
+			containerPortal = 1F0A4FE32DFB7EDB001678C8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1F7A1CCF2DF7A0C500464EB4;
-			remoteInfo = BerryLeaderboards;
+			remoteGlobalIDString = 1F0A4FEA2DFB7EDB001678C8;
+			remoteInfo = "Berry Leaderboards";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F7A1CD02DF7A0C500464EB4 /* BerryLeaderboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BerryLeaderboards.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F7A1CDE2DF7A0CD00464EB4 /* BerryLeaderboardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerryLeaderboardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F7A1CE82DF7A0CD00464EB4 /* BerryLeaderboardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerryLeaderboardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0A4FEB2DFB7EDB001678C8 /* Berry Leaderboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Berry Leaderboards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0A4FF92DFB7EE0001678C8 /* Berry LeaderboardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Berry LeaderboardsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0A50032DFB7EE0001678C8 /* Berry LeaderboardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Berry LeaderboardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1F7A1CD22DF7A0C500464EB4 /* BerryLeaderboards */ = {
+		1F0A4FED2DFB7EDB001678C8 /* Berry Leaderboards */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BerryLeaderboards;
+			path = "Berry Leaderboards";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1F7A1CCD2DF7A0C500464EB4 /* Frameworks */ = {
+		1F0A4FE82DFB7EDB001678C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F7A1CDB2DF7A0CD00464EB4 /* Frameworks */ = {
+		1F0A4FF62DFB7EE0001678C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F7A1CE52DF7A0CD00464EB4 /* Frameworks */ = {
+		1F0A50002DFB7EE0001678C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,20 +62,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F7A1CC72DF7A0C500464EB4 = {
+		1F0A4FE22DFB7EDB001678C8 = {
 			isa = PBXGroup;
 			children = (
-				1F7A1CD22DF7A0C500464EB4 /* BerryLeaderboards */,
-				1F7A1CD12DF7A0C500464EB4 /* Products */,
+				1F0A4FED2DFB7EDB001678C8 /* Berry Leaderboards */,
+				1F0A4FEC2DFB7EDB001678C8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1F7A1CD12DF7A0C500464EB4 /* Products */ = {
+		1F0A4FEC2DFB7EDB001678C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F7A1CD02DF7A0C500464EB4 /* BerryLeaderboards.app */,
-				1F7A1CDE2DF7A0CD00464EB4 /* BerryLeaderboardsTests.xctest */,
-				1F7A1CE82DF7A0CD00464EB4 /* BerryLeaderboardsUITests.xctest */,
+				1F0A4FEB2DFB7EDB001678C8 /* Berry Leaderboards.app */,
+				1F0A4FF92DFB7EE0001678C8 /* Berry LeaderboardsTests.xctest */,
+				1F0A50032DFB7EE0001678C8 /* Berry LeaderboardsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,130 +83,128 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F7A1CCF2DF7A0C500464EB4 /* BerryLeaderboards */ = {
+		1F0A4FEA2DFB7EDB001678C8 /* Berry Leaderboards */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F7A1CF22DF7A0CD00464EB4 /* Build configuration list for PBXNativeTarget "BerryLeaderboards" */;
+			buildConfigurationList = 1F0A500D2DFB7EE0001678C8 /* Build configuration list for PBXNativeTarget "Berry Leaderboards" */;
 			buildPhases = (
-				1F7A1CCC2DF7A0C500464EB4 /* Sources */,
-				1F7A1CCD2DF7A0C500464EB4 /* Frameworks */,
-				1F7A1CCE2DF7A0C500464EB4 /* Resources */,
+				1F0A4FE72DFB7EDB001678C8 /* Sources */,
+				1F0A4FE82DFB7EDB001678C8 /* Frameworks */,
+				1F0A4FE92DFB7EDB001678C8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1F7A1CD22DF7A0C500464EB4 /* BerryLeaderboards */,
+				1F0A4FED2DFB7EDB001678C8 /* Berry Leaderboards */,
 			);
-			name = BerryLeaderboards;
+			name = "Berry Leaderboards";
 			packageProductDependencies = (
 			);
-			productName = BerryLeaderboards;
-			productReference = 1F7A1CD02DF7A0C500464EB4 /* BerryLeaderboards.app */;
+			productName = "Berry Leaderboards";
+			productReference = 1F0A4FEB2DFB7EDB001678C8 /* Berry Leaderboards.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F7A1CDD2DF7A0CD00464EB4 /* BerryLeaderboardsTests */ = {
+		1F0A4FF82DFB7EE0001678C8 /* Berry LeaderboardsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F7A1CF52DF7A0CD00464EB4 /* Build configuration list for PBXNativeTarget "BerryLeaderboardsTests" */;
+			buildConfigurationList = 1F0A50102DFB7EE0001678C8 /* Build configuration list for PBXNativeTarget "Berry LeaderboardsTests" */;
 			buildPhases = (
-				1F7A1CDA2DF7A0CD00464EB4 /* Sources */,
-				1F7A1CDB2DF7A0CD00464EB4 /* Frameworks */,
-				1F7A1CDC2DF7A0CD00464EB4 /* Resources */,
+				1F0A4FF52DFB7EE0001678C8 /* Sources */,
+				1F0A4FF62DFB7EE0001678C8 /* Frameworks */,
+				1F0A4FF72DFB7EE0001678C8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F7A1CE02DF7A0CD00464EB4 /* PBXTargetDependency */,
+				1F0A4FFB2DFB7EE0001678C8 /* PBXTargetDependency */,
 			);
-			name = BerryLeaderboardsTests;
+			name = "Berry LeaderboardsTests";
 			packageProductDependencies = (
 			);
-			productName = BerryLeaderboardsTests;
-			productReference = 1F7A1CDE2DF7A0CD00464EB4 /* BerryLeaderboardsTests.xctest */;
+			productName = "Berry LeaderboardsTests";
+			productReference = 1F0A4FF92DFB7EE0001678C8 /* Berry LeaderboardsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1F7A1CE72DF7A0CD00464EB4 /* BerryLeaderboardsUITests */ = {
+		1F0A50022DFB7EE0001678C8 /* Berry LeaderboardsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F7A1CF82DF7A0CD00464EB4 /* Build configuration list for PBXNativeTarget "BerryLeaderboardsUITests" */;
+			buildConfigurationList = 1F0A50132DFB7EE0001678C8 /* Build configuration list for PBXNativeTarget "Berry LeaderboardsUITests" */;
 			buildPhases = (
-				1F7A1CE42DF7A0CD00464EB4 /* Sources */,
-				1F7A1CE52DF7A0CD00464EB4 /* Frameworks */,
-				1F7A1CE62DF7A0CD00464EB4 /* Resources */,
+				1F0A4FFF2DFB7EE0001678C8 /* Sources */,
+				1F0A50002DFB7EE0001678C8 /* Frameworks */,
+				1F0A50012DFB7EE0001678C8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F7A1CEA2DF7A0CD00464EB4 /* PBXTargetDependency */,
+				1F0A50052DFB7EE0001678C8 /* PBXTargetDependency */,
 			);
-			name = BerryLeaderboardsUITests;
+			name = "Berry LeaderboardsUITests";
 			packageProductDependencies = (
 			);
-			productName = BerryLeaderboardsUITests;
-			productReference = 1F7A1CE82DF7A0CD00464EB4 /* BerryLeaderboardsUITests.xctest */;
+			productName = "Berry LeaderboardsUITests";
+			productReference = 1F0A50032DFB7EE0001678C8 /* Berry LeaderboardsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1F7A1CC82DF7A0C500464EB4 /* Project object */ = {
+		1F0A4FE32DFB7EDB001678C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					1F7A1CCF2DF7A0C500464EB4 = {
+					1F0A4FEA2DFB7EDB001678C8 = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					1F7A1CDD2DF7A0CD00464EB4 = {
+					1F0A4FF82DFB7EE0001678C8 = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 1F7A1CCF2DF7A0C500464EB4;
+						TestTargetID = 1F0A4FEA2DFB7EDB001678C8;
 					};
-					1F7A1CE72DF7A0CD00464EB4 = {
+					1F0A50022DFB7EE0001678C8 = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 1F7A1CCF2DF7A0C500464EB4;
+						TestTargetID = 1F0A4FEA2DFB7EDB001678C8;
 					};
 				};
 			};
-			buildConfigurationList = 1F7A1CCB2DF7A0C500464EB4 /* Build configuration list for PBXProject "BerryLeaderboards" */;
+			buildConfigurationList = 1F0A4FE62DFB7EDB001678C8 /* Build configuration list for PBXProject "Berry Leaderboards" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 1F7A1CC72DF7A0C500464EB4;
+			mainGroup = 1F0A4FE22DFB7EDB001678C8;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 1F7A1CD12DF7A0C500464EB4 /* Products */;
+			productRefGroup = 1F0A4FEC2DFB7EDB001678C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F7A1CCF2DF7A0C500464EB4 /* BerryLeaderboards */,
-				1F7A1CDD2DF7A0CD00464EB4 /* BerryLeaderboardsTests */,
-				1F7A1CE72DF7A0CD00464EB4 /* BerryLeaderboardsUITests */,
+				1F0A4FEA2DFB7EDB001678C8 /* Berry Leaderboards */,
+				1F0A4FF82DFB7EE0001678C8 /* Berry LeaderboardsTests */,
+				1F0A50022DFB7EE0001678C8 /* Berry LeaderboardsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F7A1CCE2DF7A0C500464EB4 /* Resources */ = {
+		1F0A4FE92DFB7EDB001678C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F7A1CDC2DF7A0CD00464EB4 /* Resources */ = {
+		1F0A4FF72DFB7EE0001678C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F7A1CE62DF7A0CD00464EB4 /* Resources */ = {
+		1F0A50012DFB7EE0001678C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,21 +214,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F7A1CCC2DF7A0C500464EB4 /* Sources */ = {
+		1F0A4FE72DFB7EDB001678C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F7A1CDA2DF7A0CD00464EB4 /* Sources */ = {
+		1F0A4FF52DFB7EE0001678C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F7A1CE42DF7A0CD00464EB4 /* Sources */ = {
+		1F0A4FFF2DFB7EE0001678C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -240,20 +238,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F7A1CE02DF7A0CD00464EB4 /* PBXTargetDependency */ = {
+		1F0A4FFB2DFB7EE0001678C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F7A1CCF2DF7A0C500464EB4 /* BerryLeaderboards */;
-			targetProxy = 1F7A1CDF2DF7A0CD00464EB4 /* PBXContainerItemProxy */;
+			target = 1F0A4FEA2DFB7EDB001678C8 /* Berry Leaderboards */;
+			targetProxy = 1F0A4FFA2DFB7EE0001678C8 /* PBXContainerItemProxy */;
 		};
-		1F7A1CEA2DF7A0CD00464EB4 /* PBXTargetDependency */ = {
+		1F0A50052DFB7EE0001678C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F7A1CCF2DF7A0C500464EB4 /* BerryLeaderboards */;
-			targetProxy = 1F7A1CE92DF7A0CD00464EB4 /* PBXContainerItemProxy */;
+			target = 1F0A4FEA2DFB7EDB001678C8 /* Berry Leaderboards */;
+			targetProxy = 1F0A50042DFB7EE0001678C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F7A1CF02DF7A0CD00464EB4 /* Debug */ = {
+		1F0A500B2DFB7EE0001678C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -307,17 +305,15 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		1F7A1CF12DF7A0CD00464EB4 /* Release */ = {
+		1F0A500C2DFB7EE0001678C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,75 +361,91 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
-		1F7A1CF32DF7A0CD00464EB4 /* Debug */ = {
+		1F0A500E2DFB7EE0001678C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BerryLeaderboards/BerryLeaderboards.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_ENTITLEMENTS = "Berry Leaderboards/Berry_Leaderboards.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UA7XPYM6ZB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Berry Leaderboards";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.lncvrt.BerryLeaderboards;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lncvrt.Berry-Leaderboards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1F7A1CF42DF7A0CD00464EB4 /* Release */ = {
+		1F0A500F2DFB7EE0001678C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BerryLeaderboards/BerryLeaderboards.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_ENTITLEMENTS = "Berry Leaderboards/Berry_Leaderboards.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UA7XPYM6ZB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Berry Leaderboards";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.lncvrt.BerryLeaderboards;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lncvrt.Berry-Leaderboards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		1F7A1CF62DF7A0CD00464EB4 /* Debug */ = {
+		1F0A50112DFB7EE0001678C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -441,17 +453,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UA7XPYM6ZB;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.lncvrt.BerryLeaderboardsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lncvrt.Berry-LeaderboardsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BerryLeaderboards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BerryLeaderboards";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berry Leaderboards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Berry Leaderboards";
 			};
 			name = Debug;
 		};
-		1F7A1CF72DF7A0CD00464EB4 /* Release */ = {
+		1F0A50122DFB7EE0001678C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -459,90 +475,102 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UA7XPYM6ZB;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.lncvrt.BerryLeaderboardsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lncvrt.Berry-LeaderboardsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BerryLeaderboards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BerryLeaderboards";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berry Leaderboards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Berry Leaderboards";
 			};
 			name = Release;
 		};
-		1F7A1CF92DF7A0CD00464EB4 /* Debug */ = {
+		1F0A50142DFB7EE0001678C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UA7XPYM6ZB;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.lncvrt.BerryLeaderboardsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lncvrt.Berry-LeaderboardsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = BerryLeaderboards;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Berry Leaderboards";
 			};
 			name = Debug;
 		};
-		1F7A1CFA2DF7A0CD00464EB4 /* Release */ = {
+		1F0A50152DFB7EE0001678C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UA7XPYM6ZB;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.lncvrt.BerryLeaderboardsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lncvrt.Berry-LeaderboardsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = BerryLeaderboards;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Berry Leaderboards";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F7A1CCB2DF7A0C500464EB4 /* Build configuration list for PBXProject "BerryLeaderboards" */ = {
+		1F0A4FE62DFB7EDB001678C8 /* Build configuration list for PBXProject "Berry Leaderboards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F7A1CF02DF7A0CD00464EB4 /* Debug */,
-				1F7A1CF12DF7A0CD00464EB4 /* Release */,
+				1F0A500B2DFB7EE0001678C8 /* Debug */,
+				1F0A500C2DFB7EE0001678C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F7A1CF22DF7A0CD00464EB4 /* Build configuration list for PBXNativeTarget "BerryLeaderboards" */ = {
+		1F0A500D2DFB7EE0001678C8 /* Build configuration list for PBXNativeTarget "Berry Leaderboards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F7A1CF32DF7A0CD00464EB4 /* Debug */,
-				1F7A1CF42DF7A0CD00464EB4 /* Release */,
+				1F0A500E2DFB7EE0001678C8 /* Debug */,
+				1F0A500F2DFB7EE0001678C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F7A1CF52DF7A0CD00464EB4 /* Build configuration list for PBXNativeTarget "BerryLeaderboardsTests" */ = {
+		1F0A50102DFB7EE0001678C8 /* Build configuration list for PBXNativeTarget "Berry LeaderboardsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F7A1CF62DF7A0CD00464EB4 /* Debug */,
-				1F7A1CF72DF7A0CD00464EB4 /* Release */,
+				1F0A50112DFB7EE0001678C8 /* Debug */,
+				1F0A50122DFB7EE0001678C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F7A1CF82DF7A0CD00464EB4 /* Build configuration list for PBXNativeTarget "BerryLeaderboardsUITests" */ = {
+		1F0A50132DFB7EE0001678C8 /* Build configuration list for PBXNativeTarget "Berry LeaderboardsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F7A1CF92DF7A0CD00464EB4 /* Debug */,
-				1F7A1CFA2DF7A0CD00464EB4 /* Release */,
+				1F0A50142DFB7EE0001678C8 /* Debug */,
+				1F0A50152DFB7EE0001678C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1F7A1CC82DF7A0C500464EB4 /* Project object */;
+	rootObject = 1F0A4FE32DFB7EDB001678C8 /* Project object */;
 }

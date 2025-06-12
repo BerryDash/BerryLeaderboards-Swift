@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct BerryLeaderboardsApp: App {
+struct Berry_LeaderboardsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

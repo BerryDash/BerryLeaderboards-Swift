@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+#if os(macOS)
 struct VisualEffectBlur: NSViewRepresentable {
     func makeNSView(context: Context) -> NSVisualEffectView {
         let view = NSVisualEffectView()
@@ -17,3 +18,4 @@ struct VisualEffectBlur: NSViewRepresentable {
     }
     func updateNSView(_ nsView: NSVisualEffectView, context: Context) {}
 }
+#endif

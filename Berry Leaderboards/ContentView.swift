@@ -12,8 +12,10 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
+            #if os(macOS)
             VisualEffectBlur()
                 .ignoresSafeArea()
+            #endif
             List(players) { player in
                 HStack {
                     Text(player.username)
@@ -25,7 +27,9 @@ struct ContentView: View {
                 .listRowBackground(Color.clear)
             }
             .background(Color.clear)
+            #if os(macOS)
             .scrollContentBackground(.hidden)
+            #endif
             .task {
                 await loadPlayers()
             }
