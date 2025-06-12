@@ -8,17 +8,42 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var players: [Player] = []
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            VisualEffectBlur()
+                .ignoresSafeArea()
+            List(players) { player in
+                HStack {
+                    Text(player.username)
+                    Spacer()
+                    Text("\(player.score)")
+                        .bold()
+                }
+                .padding(.vertical, 4)
+                .listRowBackground(Color.clear)
+            }
+            .background(Color.clear)
+            .scrollContentBackground(.hidden)
+            .task {
+                await loadPlayers()
+            }
         }
-        .padding()
+    }
+
+    func loadPlayers() async {
+        do {
+            players = try await loadLeaderboard()
+        } catch {
+            print("Failed to load leaderboard:", error)
+        }
     }
 }
 
-#Preview {
-    ContentView()
+func loadLeaderboard() async throws -> [Player] {
+    let url = URL(string: "https://berrydash.lncvrt.xyz/database/getTopPlayersAPI.php")!
+    let (data, _) = try await URLSession.shared.data(from: url)
+    guard let raw = String(data: data, encoding: .utf8) else { return [] }
+    return parseLeaderboard(raw)
 }

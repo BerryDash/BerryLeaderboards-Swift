@@ -35,16 +35,6 @@
 			path = BerryLeaderboards;
 			sourceTree = "<group>";
 		};
-		1F7A1CE12DF7A0CD00464EB4 /* BerryLeaderboardsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BerryLeaderboardsTests;
-			sourceTree = "<group>";
-		};
-		1F7A1CEB2DF7A0CD00464EB4 /* BerryLeaderboardsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BerryLeaderboardsUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				1F7A1CD22DF7A0C500464EB4 /* BerryLeaderboards */,
-				1F7A1CE12DF7A0CD00464EB4 /* BerryLeaderboardsTests */,
-				1F7A1CEB2DF7A0CD00464EB4 /* BerryLeaderboardsUITests */,
 				1F7A1CD12DF7A0C500464EB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				1F7A1CE02DF7A0CD00464EB4 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				1F7A1CE12DF7A0CD00464EB4 /* BerryLeaderboardsTests */,
-			);
 			name = BerryLeaderboardsTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				1F7A1CEA2DF7A0CD00464EB4 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				1F7A1CEB2DF7A0CD00464EB4 /* BerryLeaderboardsUITests */,
 			);
 			name = BerryLeaderboardsUITests;
 			packageProductDependencies = (
@@ -195,6 +177,8 @@
 			);
 			mainGroup = 1F7A1CC72DF7A0C500464EB4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1F7A1CD12DF7A0C500464EB4 /* Products */;
 			projectDirPath = "";
@@ -395,6 +379,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BerryLeaderboards/BerryLeaderboards.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -422,6 +407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BerryLeaderboards/BerryLeaderboards.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
