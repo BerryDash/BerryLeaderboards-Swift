@@ -9,39 +9,74 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var players: [Player] = []
+    @State private var loading = false
+    @State private var errorMessage: String?
 
     var body: some View {
         ZStack {
             #if os(macOS)
             VisualEffectBlur()
                 .ignoresSafeArea()
+            #elseif os(iOS)
+            Color(red: 24/255, green: 24/255, blue: 24/255)
+                .ignoresSafeArea()
             #endif
-            List(players) { player in
+
+            VStack(spacing: 8) {
                 HStack {
-                    Text(player.username)
                     Spacer()
-                    Text("\(player.score)")
-                        .bold()
+                    Button("Refresh") {
+                        Task { await loadPlayers() }
+                    }
+                    .padding(.top, 8)
+                    .padding(.trailing, 12)
                 }
-                .padding(.vertical, 4)
-                .listRowBackground(Color.clear)
-            }
-            .background(Color.clear)
-            #if os(macOS)
-            .scrollContentBackground(.hidden)
-            #endif
-            .task {
-                await loadPlayers()
+
+                if loading {
+                    Text("Loading...").padding()
+                } else if let errorMessage {
+                    Text("Error: \(errorMessage)")
+                        .foregroundColor(.red)
+                        .padding()
+                }
+
+                List(players) { player in
+                    HStack {
+                        Text(player.username)
+                        Spacer()
+                        Text("\(player.score)").bold()
+                    }
+                    .padding(.vertical, 4)
+                    #if os(macOS)
+                    .listRowBackground(Color.clear)
+                    #elseif os(iOS)
+                    .listRowBackground(Color(red: 48/255, green: 48/255, blue: 48/255))
+                    #endif
+                }
+                .background(Color.clear)
+                #if os(macOS)
+                .scrollContentBackground(.hidden)
+                #elseif os(iOS)
+                .scrollContentBackground(.hidden)
+                .listStyle(.plain)
+                #endif
+                .task {
+                    await loadPlayers()
+                }
             }
         }
     }
 
     func loadPlayers() async {
+        loading = true
+        errorMessage = nil
         do {
+            players = []
             players = try await loadLeaderboard()
         } catch {
-            print("Failed to load leaderboard:", error)
+            errorMessage = error.localizedDescription
         }
+        loading = false
     }
 }
 
